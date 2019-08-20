@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+         <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../css/main2.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+
+    <!-- jbox -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.6.2/dist/jBox.all.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.6.2/dist/jBox.all.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+</head>
+      <body>
+        <div class="page-holder d-flex py-5 align-items-center">
+          <div class="container py-5">
+            <div class="row py-4 align-items-center">
+              <div class="col-5 col-lg-7 mx-auto mb-5 mb-lg-0">
+                <div class="pr-lg-5"><img src="../utils/icons/Home-IMG-5.svg" alt="" class="img-fluid"></div>
+              </div>
+              <div class="col-lg-5 px-lg-4" id="loginForm">
+                <h1 class="text-base text-success text-uppercase mb-4">User/Admin Dashboard</h1>
+                <h2 class="mb-4" style="font-size: 1.8rem;font-weight: bold;font-family: Poppins;">Welcome back!</h2>
+                <p class="text-muted loginDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <form id="loginForm" action="" class="mt-4">
+                  <div class="form-group mb-4">
+                    <input type="text" name="username" placeholder="Username or Email address" class="form-control border-0 shadow form-control-lg">
+                  </div>
+                  <div class="form-group mb-4">
+                    <input type="password" name="passowrd" placeholder="Password" class="form-control border-0 shadow form-control-lg text-violet">
+                  </div>
+                  <div class="form-group mb-4">
+                    <div class="custom-control custom-checkbox">
+                      <input id="customCheck1" type="checkbox" checked="" class="custom-control-input">
+                      <label for="customCheck1" class="custom-control-label">Remember Me</label>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-success shadow px-5">Log in</button>
+                </form>
+                <div class="d-flex">
+                    <div class="col align-item-center"> <p class="m-0 py-5"> Dont have an account ? <span class="signup">SignUp</span> </p> </div>
+                    
+                </div>
+              </div>
+              <!--  -->
+
+              <div class="col-lg-5 px-lg-4" id="signUpForm">
+                    <h1 class="text-base text-success text-uppercase mb-4">User Registration</h1>
+                    <h2 class="mb-4" style="font-size: 1.8rem;font-weight: bold;font-family: Poppins;">Welcome!</h2>
+                    <p class="text-muted loginDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <form id="loginForm" action="" class="mt-4">
+                      <div class="form-group mb-4">
+                        <input type="text" name="username" placeholder="Username" class="form-control border-0 shadow form-control-lg">
+                      </div>
+                      <div class="form-group mb-4">
+                        <input type="password" name="email" placeholder="Email address" class="form-control border-0 shadow form-control-lg text-violet">
+                      </div>
+                      <div class="form-group mb-4">
+                            <input type="password" name="passowrd" placeholder="Password" class="form-control border-0 shadow form-control-lg text-violet">
+                          </div>
+                      <button type="submit" class="btn btn-success shadow px-5">Sign Up</button>
+                    </form>
+                    <div class="d-flex">
+                        <div class="col align-item-center"> <p class="m-0 py-5"> Already have an account ? <span class="login">Log In</span> </p> </div>
+                        
+                    </div>
+                  </div>
+
+              <!--  -->
+            </div>
+          </div>
+        </div>
+        
+        <script src="../scripts/main.js"></script>
+      
+    </body></html>

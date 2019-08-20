@@ -1,0 +1,949 @@
+@media only screen and (max-width: 1600px) {
+    .complete_notification {
+        width: 42% !important;
+    }
+
+    .nav_functions {
+        width: 28% !important;
+    }
+
+    .side_nav {
+        width: 21% !important;
+    }
+
+    .main_body_wrapper {
+        width: 79% !important;
+        margin-left: 21% !important;
+    }
+
+    .dashB_cards {
+        width: 32.33% !important;
+    }
+
+    .card_for_wallet .middle, .card_for_mutualFunds .middle, .card_for_investments .middle {
+        padding: 30px 0 !important;
+    }
+
+    .card_for_wallet .middle h2, .card_for_investments .middle h2 {
+        font-size: 1.7rem !important;
+    }
+
+    .savings_tracks .progress {
+        height: 8px;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+   
+    
+    .intro_section_rightDiv .lowest_bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+    
+        width: 67%;
+        height: 80%;
+        background-color: #10C06D;
+    }
+    
+    .intro_section_rightDiv .top_bg {
+        position: absolute;
+        width: 57%;
+        height: 80%;
+        top: 0;
+        right: 0;
+        background-color: #10C06D;
+    
+        padding: 90px 10px 10px 10px;
+        overflow: auto;
+        
+    }
+    
+    .top_quote, .down_quote {
+        width: 100%;
+        text-align: center;
+    
+    }
+    
+    .top_quote img, .down_quote img {
+        width:40px;
+        height: 40px;
+    
+    }
+    
+    .quote_text {
+        text-align: center;
+        padding: 17px 5px;
+    }
+    
+    .quote_text p  {
+        font-size: 18px;
+        color: #fff;
+        /* line-height: 177.42%; */
+    }
+}
+
+/* @media screen and (max-width: 900px) and (min-width: 600px) */
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+
+   
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .login_left_section {
+        width: 40% !important;
+    }
+
+    .login_right_section {
+        width: 60% !important;
+        margin-left: 40% !important;
+    }
+
+    .login_form_div {
+        width: 64% !important;
+        margin-left: 18% !important;
+        margin-right: 18% !important;
+    }
+
+    .complete_notification {
+        width: 52% !important;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px) {
+      
+    
+}
+
+/* 900px viewport */
+
+@media only screen and (max-width: 900px) {
+
+    .sideNavBtnOpen {
+        display: block;
+    }
+
+    .create_account_topNav {
+        padding: 30px 30px !important;
+    }
+
+    .create_account_title h1 {
+        font-size: 30px;
+    }
+
+    .create_account_title p {
+        font-size: 12px;
+    }
+
+    .create_acc_form_container {
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .create_acc_form_container {
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .basic_inputs_container, .verify_inputs_container {
+        padding: 35px 20px !important;
+    }
+
+    .success_msg_main_container, .add_bank_card_container {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .index_nav_div_container {
+        display: none;
+    }
+
+    .header_description_text {
+        width: 100%;
+        padding: 90px 18px;
+    }
+    
+    .header_description_text h1 {    
+        font-size: 40px;
+        font-weight: 700;
+    
+    }
+
+    .header_description_text img {
+        /* margin-left: calc(85% - 224px) !important; */
+    }
+
+    .intro_section_leftDiv, .intro_section_rightDiv {
+        margin: 18px 0;
+        width: 100%;
+    }
+
+    section.into_section, section.how_it_works, section.stats, section.futa_section, section.succes_story {
+        padding: 60px 5px;
+    }
+
+    .intro_section_wrapper, .index_custom_wrapper {
+        width: 90%;
+        margin: 0 5%;
+    }
+        
+    
+    .intro_section_rightDiv .lowest_bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+    
+        width: 60%;
+        height: 80%;
+        background-color: #10C06D;
+    }
+    
+    .intro_section_rightDiv .top_bg {
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        top: 0;
+        right: 0;
+        background-color: #10C06D;
+    
+        padding: 35dpx;
+    }
+    
+    .top_quote, .down_quote {
+        width: 100%;
+        text-align: center;
+    
+    }
+
+    .top_quote img, .down_quote img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .quote_text {
+        text-align: center;
+        padding: 30px 5px;
+    }
+    
+    .quote_text p  {
+        font-size: 13px;
+        color: #fff;
+        /* line-height: 177.42%; */
+    }
+
+    .how_it_works_steps {
+        display: inline;
+    }
+
+    .how_it_works_steps div.steps {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .stats .stats_header_text h4 {
+        font-size: 17px;
+    }
+
+    .stats .stats_header_text p {
+        font-size: 15px;
+        padding: 12px 0 !important;
+    }
+
+    .stats_numbers {
+        display: inline;
+    }
+
+    .stats_numbers div {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .success_story_part {
+        width: 100%;
+        margin-left: 0;
+        margin-right:0;
+        height: 560px;
+        /* border: 1px solid red; */
+    
+        /* position: relative; */
+    
+    }
+
+
+    .success_story_part .image_part {
+        position: absolute;
+        top: -9%;
+        left: 0;
+    
+        width: 100%;
+        height: 47%;
+    }
+    
+    .success_story_part .story_part {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    
+        width: 100%;
+        height: 80%;
+        /* border: 1px solid green; */
+        background-color: #fff;
+
+        padding-top: 80px;
+    }
+    
+    .story_part .story_part_story {
+        width: 100%;
+        margin-left: 0;
+        padding: 35px;
+    }
+    
+    .story_part_story .story_title {
+        width: 100%;
+        
+    }
+    
+    .story_part_story .story_title h4 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .story_part_story .user_story {
+        width: 100%;
+        padding: 20px 0 40px 0;
+    }
+    
+    .story_part_story .user_story .user_story_img {
+        width: 8%;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+        float: left;
+    }
+    
+    .story_part_story .user_story .user_story_name {
+        width: 92%;
+        float: left;
+        padding-left: 15px;
+    } 
+    
+    .story_part_story .user_story .user_story_name h5 {
+        font-size: 14px;
+        font-weight: bold;
+        color: #B2B7BC;
+    }
+    
+    .story_part_story .story_text {
+        width: 100%;
+        float: left;
+    }
+    
+    .story_part_story .story_text p {
+        font-size: 14px;
+        line-height: 23px;
+        color: #B2B7BC;
+    }
+    
+    .success_story_part .image_part img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer_div {
+        display: inline;
+    }
+    
+    .footer_div div {
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .invest_header_description_text {
+        padding:60px 30px;
+    }
+    
+    .invest_header_description_text h3 {
+        font-size: 30px;
+        /* font-weight: 800; */
+    }
+    
+    .invest_header_description_text p {
+        font-size: 15px;
+    }
+    
+    .invest_first_section p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .invest_second_section {
+        display: inline;
+    }
+    
+    .invest_second_section div {
+        width: 100%;
+        margin: 6px 0;
+    }
+
+    .invest_third_section {
+        padding: 50px 0;        
+    }
+
+    .invest_products_title h1 {
+        font-size: 30px;
+    }
+
+    .invest_products div.product_container {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .invest_success_text {
+        padding: 50px 0 0px 0 !important;
+    }
+
+    .main_save_section {
+        padding-top: 50px;
+    }
+
+    .save_page_main_wrapper {
+        display: inline;
+    }
+
+    .save_page_main_wrapper div.save_right_section {
+        width: 100%;
+    }
+
+    .save_page_main_wrapper div.save_left_section {
+        display: none;
+    }
+
+    .whatWeDo_text_section {
+        padding: 20px 20px;
+    }
+
+    /*  */
+
+    .save_right_section .lifestyle_div {
+        display: inline;
+    }
+    
+    .save_right_section .lifestyle_div .left_div,
+    .save_right_section .lifestyle_div .right_div {
+        width: 100%;      
+        background-color: #08A65B;    
+        
+    }
+
+    .save_right_section .lifestyle_div .left_div {
+        padding: 20px 10px;
+    }
+
+    .save_right_section .lifestyle_div .right_div {
+        padding: 80px 10px;
+    }
+    
+    .save_right_section .lifestyle_div .left_div h6 {
+        padding: 20px 0 !important;
+    }
+    
+    .save_right_section .lifestyle_div .right_div p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 163.35%;
+    }
+
+    /*  */
+
+    /* 888 */
+
+    .save_right_section .children_edu_div {
+        display: inline;
+    }
+    
+    .save_right_section .children_edu_div .left_div,
+    .save_right_section .children_edu_div .right_div {
+        width: 100%;      
+        background-color: #01733D;    
+        
+    }
+
+    .save_right_section .children_edu_div .left_div {
+        padding: 20px 10px;
+    }
+
+    .save_right_section .children_edu_div .right_div {
+        padding: 80px 10px;
+    }
+    
+    .save_right_section .children_edu_div .left_div h6 {
+        padding: 20px 0 !important;
+    }
+    
+    .save_right_section .children_edu_div .right_div p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 163.35%;
+    }
+
+    /*  */
+    .save_right_section .house_owner_div {
+        display: inline;
+    }
+    
+    .save_right_section .house_owner_div .left_div,
+    .save_right_section .house_owner_div .right_div {
+        width: 100%;      
+        background-color: #022E19;    
+        
+    }
+
+    .save_right_section .house_owner_div .left_div {
+        padding: 20px 10px;
+    }
+
+    .save_right_section .house_owner_div .right_div {
+        padding: 80px 10px;
+    }
+    
+    .save_right_section .house_owner_div .left_div h6 {
+        padding: 20px 0 !important;
+    }
+    
+    .save_right_section .house_owner_div .right_div p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 163.35%;
+    }
+
+    .quote_section_header p {
+        font-weight: 200;
+        font-size: 16px;
+    }
+
+    .quotes_text .quotes {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .first_learn_section {
+        padding: 60px 0;
+    }
+
+    .first_learn_section_wrapper p.learn_desc_text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 163.35%;
+    }
+
+    .learn_second_section_wrapper {
+        display: inline;
+    }
+    
+    .learn_second_section_wrapper div.first_div {
+        width: 100%;
+        display: inline;
+    }
+
+    .learn_second_section_wrapper div.first_div div {
+        padding: 40px 30px;
+    }
+    
+    .learn_second_section_wrapper div.second_div {
+        display: none;
+    }
+
+    .goal_page_title {
+        padding: 50px;
+    }
+    
+    .goal_page_title h3 {
+        font-size: 26px;
+    }
+
+    .each_goals_wrapper div.each_goals_sections {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .savings_option_select_wrapper {
+        width: 100%;
+    }
+
+    .savings_option_select_wrapper .all_savings_options {
+        width: 100%;
+        margin: 20px 0 !important;
+    }
+
+    .savings_plan_options_header {
+        clear: both;
+    }
+
+    .target_savings_steps div {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .personal_target_savings div:first-child {
+        width: 69%;
+    
+    }
+    .personal_target_savings div:first-child p {
+        font-size: 11px;
+    }
+    
+    .personal_target_savings div:last-child {
+        width:31%;
+        
+    }
+    
+    .target_savings_steps .personal_target_savings h3 {
+        font-size: 15px; 
+    }
+
+    .target_savings_steps .personal_target_savings img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .target_savings_steps .personal_target_savings {
+        align-items: center;
+    }
+
+    /*  */
+
+    .group_target_savings div:first-child {
+        width:69%;
+    
+    }
+    .group_target_savings div:first-child p {
+        font-size: 11px;
+    }
+    
+    .group_target_savings div:last-child {
+        width:31%;
+        
+    }
+    
+    .target_savings_steps .group_target_savings h3 {
+        font-size: 15px; 
+    }
+
+    .target_savings_steps .group_target_savings img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .target_savings_steps .group_target_savings {
+        align-items: center;
+    }
+
+    .target_savings_form_main_wrapper .savings_form_div, .sec_auc_form {
+        width: 98%;
+        margin: 0 1%;
+        padding: 30px 20px;
+    }
+
+    .savings_form_div .step_number div:before {
+        width: 90%;
+        left: -100%;
+    }
+
+    .investment_upper_part_title {
+        display: inline;
+    } 
+
+    .investment_upper_part_title .first_child {
+        width: 100% !important;
+        padding-bottom: 15px !important;
+    }
+
+    .investment_upper_part_title .second_child {
+        width: 100% !important;
+        justify-content: flex-start !important;
+    }
+
+    .second_child_filter .second_child_filter_dropdown {
+        /* position: absolute; */
+        /* top: 45px !important; */
+        left: -130px !important;
+        /* padding: 30px !important; */
+        background: #FFFFFF !important;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px !important;
+        width: 400% !important;
+        z-index: 999;
+        /* display: none; */
+    
+    }
+
+    .invest_detail_top {
+        align-items: center;
+    }
+    
+    .invest_detail_top .title h4 {
+        font-size: 19px;
+    }
+    .invest_detail_top .invest_btn {
+        padding: 12px 20px ;
+        font-size: 12px !important;
+    }
+
+    .invest_detail_desc {
+        display: inline;
+    }
+
+    .invest_detail_desc .left {
+        width: 100% !important;
+        height: 300px;
+    }
+
+    .invest_detail_desc .right {
+        width: 100% !important;
+        padding: 20px 0 !important;
+    }
+
+    .invest_detail_desc .right .right_header p {
+        width: 100% !important;
+        padding: 23px 0 30px 0 !important;
+    }
+
+    .invest_detail_desc div.right .right_footer div {
+        padding-right: 0 !important;
+    }
+
+    .invest_detail_desc div.right .right_footer {
+        justify-content: space-between !important;        
+    }
+
+    .exp_payoff div h4 {
+        font-size: 20px !important;
+    }
+
+    .aution_options {
+        display: inline;
+    }
+
+    .aution_options div.primary_aution,
+    .aution_options div.secondary_option {
+        width: 80% !important;
+        margin: 20px 10% !important;
+        padding: 20px !important;
+    }
+
+    .auctions_container .autions_div {
+        width: 90% !important;
+        margin: 20px 5% !important;
+    }
+
+    div.product_filter .product_filter_form_div {
+        /* width: 90% !important;  */
+        margin: 0 5%; 
+        padding: 15px 45px; 
+        display: inline;
+    }
+
+    div.product_filter .product_filter_form_div div {
+        width: 100% !important;
+
+    }
+
+    div.product_filter {
+        padding-bottom: 120px !important;
+    }
+
+    .mutual_card_title {
+        display: inline;
+    }
+
+    .mutual_card_title div {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+
+    .mutual_card_title .mutual_card_title_text p {
+        padding-top: 5px !important;
+        font-size: 12px;
+    }
+    
+    /* .mutual_card_title .mutual_card_title_text h4 {
+        font-size: 20px !important;
+    } */
+    
+    .mutual_card_title .new_mutual_fund_link {
+        padding: 30px 0 !important;
+    }
+
+    .debt_history_card {
+        padding: 20px !important;
+    }
+
+    .debt_history_card_down div {
+        padding: 3px 10px;
+    }
+
+    .debt_history_card_down {
+        padding-top: 30px !important;
+    }
+
+    .debt_history_card_down div p {
+        font-size: 12px !important;
+    }
+
+    .debt_history_card_down div h6 {
+        font-size: 15px;
+        padding: 10px 0 !important;
+    }
+
+    .savings_plan_for_interest_options {
+        width: 100% !important;
+    }
+
+    .savings_breakdown_interest div {
+        padding-right: 11% !important;
+    }
+
+    .savings_analysis {
+        display: inline-block !important;
+        overflow: auto;
+    }
+
+    .savings_analysis div {
+        width: 100% !important;
+        text-align: center;
+        border: none !important;
+    }
+
+    .savings_options_detail_title div h4 {
+        font-size: 20px !important;
+    }
+
+    .savings_options_detail_title div p a i {
+        margin-right: 6px !important;
+    }
+
+    .modal-body .noti_breakdown div {
+        width: 100%;
+        margin: 15px 0;
+        border: none;
+    }
+
+    .question_main_wrapper {
+        width: 100% !important;
+    }
+
+    .question_month_options_div {
+        display: inline;
+    }
+
+    .question_month_options .month_option {
+        width: 100%;
+        margin: 13px 0;
+    }
+
+    .recomendation .recom_options {
+        display: inline;
+    }
+
+    .recomendation .recom_options .recom_options_div {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    
+
+    /*  */
+
+}
+
+/* End of 900px viewport */
+
+
+@media only screen and (max-width: 700px) {
+    .login_left_section {
+        display: none;
+    }
+
+    .login_right_section {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .login_form_div {
+        width: 94% !important;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+    }
+
+    .login_mini_nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .side_nav {
+        display: none !important;
+    }
+
+    .dashboard_sideNav_open {
+        display: block;
+    }
+
+    .main_body_wrapper {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .dash_top_nav {
+        display: inline !important;
+    }
+
+    .complete_notification {
+        width: 90% !important;
+        margin: 10px 5% !important;
+        float: left !important;
+    }
+    
+    .nav_functions {
+        width: 80% !important;
+        margin: 5px 10% !important;
+        float: left !important;
+        padding-top: 10px !important; 
+    }
+
+    .card_section {
+        display: inline !important;
+    }
+
+    .dashB_cards {
+        width: 100% !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .latest_saving, .transaction_history {
+        width: 100% !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .latest_saving {
+        border-right: none !important;
+    }
+
+    .body_space {
+        padding: 15px;
+    }
+
+}
+
